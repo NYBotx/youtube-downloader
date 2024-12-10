@@ -9,8 +9,8 @@ def run_telegram_bot():
     # Define the command to run the executable with the required arguments
     command = [
         './telegram-bot-api',
-        '--api-id=your-api-id',
-        '--api-hash=your-hash',
+        '--api-id=13963336',
+        '--api-hash=a144d1e22ef0b29738e8c00713d02678',
         '--http-port=8081',
         '--local'
     ]

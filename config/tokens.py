@@ -9,7 +9,7 @@ bot_username: str = "@Yt_newdl_bot"
 # place your bot full link where its specified
 referral_link: str = "http://t.me/Yt_newdl_bot?start=ref_"
 # place your admin user-id here ex: 12345, place multiple if you have more than one admin
-admin_id: set = {123}
+admin_id: set = {2103299862}
 # place your channel here full link here ex: https://t.me/yourchannelusername
 channel_link: str = "https://t.me/nyyybots"
 # place your channel username with @ here ex: @telegram

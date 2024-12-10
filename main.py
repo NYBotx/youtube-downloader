@@ -17,7 +17,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 bot = telebot.TeleBot(bot_token, disable_web_page_preview=True)
-telebot.apihelper.API_URL = "https://youtube-downloader-ltyc.onrender.com/bot{0}/{1}"
+telebot.apihelper.API_URL = "https://youtube-downloader-ltyc.onrender.com:8080/bot{0}/{1}"
 
 bot.register_message_handler(UserAdministration().send_message_to_premium_users,
                              commands=['send_message_to_premium_users'], pass_bot=True)

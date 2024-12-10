@@ -3,7 +3,7 @@ here you can define your own tokens
 """
 
 # place your bot token here
-bot_token: str = "7596483710:AAEx4hT6P0QdKRbm81_3OSw5WC_K7L-P7c0"
+bot_token: str = "5687487416:AAHLmJNKspVvvALYNucDFX0R9Vlq2SZevjg"
 # place your bot username with @ here ex: @botfather
 bot_username: str = "@Yt_newdl_bot"
 # place your bot full link where its specified

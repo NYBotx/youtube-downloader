@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 # configure you mongo server here
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://Nischay999:Nischay999@cluster0.5kufo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 db = client['yt-downloader']
 users_collection = db['users']
